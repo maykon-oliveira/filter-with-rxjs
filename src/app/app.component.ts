@@ -2,7 +2,7 @@ import { DataSourceService } from './data-source.service';
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { combineLatest } from 'rxjs';
-import { map, share, shareReplay, startWith } from 'rxjs/operators';
+import { map, shareReplay, startWith } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
